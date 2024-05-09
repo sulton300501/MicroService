@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService", "MicroService\MicroService.csproj", "{30EBD6E3-5FDD-40E8-8846-D6C220DE6534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService", "MicroService\MicroService.csproj", "{30EBD6E3-5FDD-40E8-8846-D6C220DE6534}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2DCBAEC2-1CAB-4F2B-AA78-C8E11E1D96A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "..\Product.API\Product.API.csproj", "{C877ABEB-4F5C-4DE2-ABFF-FBCF9DDFE07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher.API", "..\Teacher.API\Teacher.API.csproj", "{84504641-AAA4-46ED-8485-5E3DB5A25E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "..\Students\Students.csproj", "{32218075-B9FB-419A-AFA2-B08114295AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetAway.API", "..\GetAway.API\GetAway.API.csproj", "{479E0DCD-B226-47FF-B1AD-17EEC279A3F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{2DCBAEC2-1CAB-4F2B-AA78-C8E11E1D96A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DCBAEC2-1CAB-4F2B-AA78-C8E11E1D96A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DCBAEC2-1CAB-4F2B-AA78-C8E11E1D96A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C877ABEB-4F5C-4DE2-ABFF-FBCF9DDFE07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C877ABEB-4F5C-4DE2-ABFF-FBCF9DDFE07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C877ABEB-4F5C-4DE2-ABFF-FBCF9DDFE07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C877ABEB-4F5C-4DE2-ABFF-FBCF9DDFE07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84504641-AAA4-46ED-8485-5E3DB5A25E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84504641-AAA4-46ED-8485-5E3DB5A25E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84504641-AAA4-46ED-8485-5E3DB5A25E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84504641-AAA4-46ED-8485-5E3DB5A25E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32218075-B9FB-419A-AFA2-B08114295AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32218075-B9FB-419A-AFA2-B08114295AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32218075-B9FB-419A-AFA2-B08114295AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32218075-B9FB-419A-AFA2-B08114295AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479E0DCD-B226-47FF-B1AD-17EEC279A3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479E0DCD-B226-47FF-B1AD-17EEC279A3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479E0DCD-B226-47FF-B1AD-17EEC279A3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479E0DCD-B226-47FF-B1AD-17EEC279A3F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
