@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  microservice:
+    image: ${DOCKER_REGISTRY-}microservice
+    build: 
+      context: .
+      dockerfile: MicroService/DockerFile
+    depends_on:
+      - db_service
+    networks:
+      - db-network
+
+
+
+  db_service:  
+    container_name: db_service
+    image: postgres:lastest  
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_USER=sulton
+      - POSTGRES_DB=MicroserviceDockerDB
+    volumes:
+      - pgdata:/var/lib/postgresql/MicroserviceDockerDB
+    ports:
+      - "5432:5432"
+
+
+networks:
+  db-network:
+     driver: bridge
+
+
+volumes:
+   pgdata:    
+  
